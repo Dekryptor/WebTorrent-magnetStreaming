@@ -1,0 +1,55 @@
+body {
+    background-color: #2D4059;
+    color: #F07B3F;
+}
+
+a {
+    text-decoration:none;
+} 
+
+.input {
+    border: none;
+    line-height: 4vw;
+    width: 50%;
+    font-size: 2vw;
+    padding: 0px 1vw;
+    color: #2D4059;
+    border-radius: 1vw 0 0 1vw;
+}
+
+.button {
+    border: none;
+    line-height: 4vw;
+    font-size: 2vw;
+    padding: 0px 1vw;
+    color: #2D4059;
+    background: #FFD460;
+    border-radius: 0 1vw 1vw 0;
+}
+
+.form {
+    margin-top: 20%;
+}
+
+.Progress {
+    background: #000;
+    margin: 2% 10%;
+    border-radius: 2px;
+}
+
+.ProgressText {
+    background: #EA5455;
+    color: #2D4059;
+    border-radius:2px 2px 0px 0px;
+    padding: 10px;
+}
+
+.ProgressBar {
+    background: #FFD460;
+    height: 2px;
+    width: 0px;
+}
+
+.video video{
+    width: 100%;
+}

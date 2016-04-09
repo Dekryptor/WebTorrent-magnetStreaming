@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+		<title>WebTorrent</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#3A4750">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+		<center>
+		<form class="form">
+			<input class="input" name="torrentId", placeholder="magnet:" value="magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d&dn=sintel.mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=wss%3A%2F%2Ftracker.webtorrent.io&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel-1024-surround.mp4">
+			<button class="button" type="submit">Download</button>
+		</form>
+		<div id="hide" style="display:none">
+		<div class="Progress"><div class="ProgressText"><span id="Progress">Progress Bar</span></div><div class="ProgressBar"></div><div class="video"></div></div>
+		
+		<h2>Log</h2>
+		<div class="log"></div>
+		</div>
+		</center>
+		<script src="js/webtorrent.min.js"></script>
+        <script src="js/streaming.js"></script>
+  </body>
+</html>
